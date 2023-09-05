@@ -1,0 +1,11 @@
+.home-image{
+  background-image: url('../assets/bg-home.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+@media only screen and (max-width: 480px) {
+  home-image {
+    width: 50%;
+  }
+}
